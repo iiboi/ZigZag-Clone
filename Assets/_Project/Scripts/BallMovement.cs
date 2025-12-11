@@ -7,7 +7,6 @@ public class BallMovement : MonoBehaviour
 
     private Rigidbody rb;
 
-
     private bool isMovingForward = true;
 
     private void Awake() 
@@ -51,5 +50,12 @@ public class BallMovement : MonoBehaviour
 
             isMovingForward = true;
         }
+    }
+
+    public void IncreaseSpeed()
+    {
+        speed += 1.5f;
+
+        Debug.Log($"New Speed: {speed}");
     }
 }

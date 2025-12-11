@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7015468726734300009}
   - component: {fileID: 9015444896437891018}
+  - component: {fileID: -1879362256776409160}
   - component: {fileID: 4113231458453364743}
   - component: {fileID: 5074169529406371458}
   - component: {fileID: 1942240438740463906}
@@ -48,6 +49,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d332089b74b71a41b431a655b87ae7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformSpawnController
+--- !u!114 &-1879362256776409160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3824744914677220048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234f85752869fc541bbe1140ad46e96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformCounter
 --- !u!33 &4113231458453364743
 MeshFilter:
   m_ObjectHideFlags: 0
