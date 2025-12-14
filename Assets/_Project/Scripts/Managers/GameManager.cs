@@ -21,8 +21,11 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-
         isGameStarted = false;
+
+        Application.targetFrameRate = 60;
+
+        QualitySettings.vSyncCount = 0;
     }
 
     //Oyun başlangıçta yapılmış en yüksek skoru ekrana yazdırır.

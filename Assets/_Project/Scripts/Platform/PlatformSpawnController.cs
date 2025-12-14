@@ -16,9 +16,9 @@ public class PlatformSpawnController : MonoBehaviour
         {
             FindAnyObjectByType<PlatformSpawner>().PlatformSpawn();
             //Platform 1 saniye sonra düşmeye başlar.
-            Invoke(nameof(PlatformFall), 1f);
+            Invoke(nameof(PlatformFall), 0.4f);
             //Platform 2.5 saniye sonra yok edilir.
-            Invoke(nameof(PlatformDestroy), 2.5f);
+            Invoke(nameof(PlatformDestroy), 1.6f);
         }
 
     }
